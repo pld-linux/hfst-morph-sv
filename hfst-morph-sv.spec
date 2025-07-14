@@ -25,7 +25,7 @@ języka szwedzkiego. Jest oparty na "Den stora svenska ordlistan"
 
 %prep
 %setup -q -n hfst-swedish-installable
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
